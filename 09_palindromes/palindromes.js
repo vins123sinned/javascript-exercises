@@ -1,8 +1,8 @@
 const palindromes = function (string) {
-    const onlyLetters = string.replaceAll(/[^a-zA-Z0-9]+/g, '').toLowerCase();
-    const reverseString = onlyLetters.split('').reverse().join('');
+    const onlyLettersNumbers = string.replaceAll(/[^a-zA-Z0-9]+/g, '').toLowerCase();
+    const reverseString = onlyLettersNumbers.split('').reverse().join('');
 
-    return onlyLetters === reverseString;
+    return onlyLettersNumbers === reverseString;
 };
 
 // Do not edit below this line
